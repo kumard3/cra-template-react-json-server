@@ -1,38 +1,44 @@
+
 {
-  "name": "json-server-template",
+  "name": "cra-template-react-json-api-server-kumard3",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "author": "Kumar Deepanshu <kumardeepanshu157200@gmail.com",
+  "engines": {
+    "node": ">=10"
+  },
+  "main": "template.json",
+  "description": "It is a json-server-template, which is an mock rest api ",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "template",
+    "kumar deepanshu"
+  ],
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kumard3/cra-template-react-json-server",
+    "directory": "/"
+  },
+  "bugs": {
+    "url": "https://github.com/kumard3/cra-template-react-json-server/issues"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "json-server": "^0.16.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
